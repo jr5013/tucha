@@ -1,0 +1,20 @@
+{
+  "containerPort": 80,
+  "minNum": 0,
+  "maxNum": 5,
+  "cpu": 1,
+  "mem": 2,
+  "policyType": "cpu",
+  "policyThreshold": 50,
+  "envParams": {
+    "MYSQL_ADDRESS": "10.0.224.9:3306",
+    "MYSQL_DATABASE": "tucha",
+    "MYSQL_USERNAME": "root",
+    "MySQL_PASSWORD": "Kd6mCdRD"
+  },
+  "customLogs": "stdout",
+  "dataBaseName":"tucha",
+  "executeSQLs":[
+    "CREATE DATABASE IF NOT EXISTS tucha;"
+  ]
+}
